@@ -10,7 +10,7 @@
   initialValue={0}
 />
 
-```
+```jsx
 <Counter
   incrementText="+"
   decrementText="-"
