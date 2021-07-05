@@ -2,8 +2,26 @@
   import Counter from './Counter.svelte'
 </script>
 
+# Counter
+
 <Counter
   incrementText="+"
   decrementText="-"
   initialValue={0}
 />
+
+```
+<Counter
+  incrementText="+"
+  decrementText="-"
+  initialValue={0}
+/>
+```
+
+## Props
+
+| Prop             | Type       | Default  | Description               |                               | 
+|------------------|------------|----------|--------------- -----------|
+| `incrementText`  | `String`   | `+`      | Text for increment button |
+| `decrementText`  | `String`   | `-`      | Text for decrement button |
+| `initialValue`   | `Number`   | `0`      | Value to start on         |
