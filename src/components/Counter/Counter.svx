@@ -1,0 +1,9 @@
+<script>
+  import Counter from './Counter.svelte'
+</script>
+
+<Counter
+  incrementText="+"
+  decrementText="-"
+  initialValue={0}
+/>
