@@ -1,3 +1,24 @@
+---
+layout: menu
+
+items:
+  -
+    title: GitHub
+    link: https://github.com/vadimkorr
+  
+  -
+    title: npm
+    link: https://www.npmjs.com/package/svelte-carousel
+
+---
+
+
+<!-- ---
+subtitle: Counter example
+
+--- -->
+
+
 <script>
   import Counter from './Counter.svelte'
 </script>
