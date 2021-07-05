@@ -45,7 +45,11 @@ export default {
     // tell svelte to handle mdsvex files
     svelte({
       extensions: ['.svelte', '.svx'],
-      preprocess: mdsvex(),
+      preprocess: mdsvex({
+        smartypants: {
+          ellipses: false // true
+        },
+      }),
     }),
 
     // we'll extract any component CSS out into
