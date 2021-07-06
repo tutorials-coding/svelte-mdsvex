@@ -6,7 +6,7 @@ import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 import css from 'rollup-plugin-css-only'
 import { mdsvex } from 'mdsvex'
-// import remarkEmoji from 'remark-emoji'
+import remarkEmoji from 'remark-emoji'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -52,7 +52,7 @@ export default {
           ellipses: false // true
         },
         remarkPlugins: [
-          // remarkEmoji
+          [remarkEmoji, { emoticon: true }]
         ],
         layout: {
           _: join(__dirname, './src/mdx-layouts/MainLayout.svelte'),

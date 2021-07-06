@@ -51,3 +51,6 @@ subtitle: Counter example
 Hello...
 
 :smile:
+
+:-)
+
