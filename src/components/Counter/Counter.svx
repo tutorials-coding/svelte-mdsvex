@@ -12,6 +12,7 @@ items:
 
 ---
 
+{ items.length }
 
 <!-- ---
 subtitle: Counter example
